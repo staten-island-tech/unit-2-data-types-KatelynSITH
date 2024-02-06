@@ -1,5 +1,5 @@
-def gcf(x, y):
-    print(x, y)
-    print(x)
+values = [1,]
 
-gcf(2,4)
+def gcf(x, y):
+    print(x)
+else
