@@ -1,13 +1,14 @@
-service = input("How was the service today ")
-y = ((input("Total ")))
-x = int(service)
+bill = input("What was the cost of your bill? ")
+service = ((input("How was the service today? ")))
 
 if service == ("bad"):
-    print(float(x))
+    print(int(bill)*1)
 elif service == ("okay"):
-    print(float(1.15*x))
+    print(int(bill)*1.15)
 elif service == ("good"):
-    print(float(1.20*x))
+    print(int(bill)*1.20)
 elif service == ("great"):
-    print(float(1.25*x))
+    print(int(bill)*1.25)
+else:
+    print("invalid response")
 
