@@ -7,4 +7,4 @@ def gcf(x,y):
             if x%i == 0 and y%i == 0:
                  factor.append(i)
 gcf(x,y)
-print('GCF of', x, 'and', y, 'is', factor[1])
+print('GCF of', x, 'and', y, 'is', factor[-1])
